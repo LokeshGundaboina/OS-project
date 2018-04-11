@@ -22,8 +22,8 @@ int main()
   cout<<"\nEnter Time Quantum:\n";
   cin>>time_qnt;
   cout<<"\n\nProcess\t|TurnAround Time|Waiting Time\t\n\n";
-time=0;
-process_count=0;
+//time=0;
+//process_count=0;
 for(time=0,process_count=0;remain!=0;)
   {
   	 if(rt[process_count]<=time_qnt && rt[process_count]>0) 
